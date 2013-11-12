@@ -1,0 +1,12 @@
+{
+    "leaflet-hash": {
+        "prefix": "leaflet-hash",
+        "v": {
+            "0.2.1": {
+                "files": [
+                    "leaflet-hash.js"
+                ]
+            }
+        }
+    }
+}
