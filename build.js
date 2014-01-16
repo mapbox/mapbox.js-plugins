@@ -3,6 +3,7 @@ var fs = require('fs'),
     plugins = require('./plugins');
 
 var s3_path = 's3://mapbox-js/mapbox.js/plugins/';
+var sh_file = 'deploy.sh';
 
 var sh = [
     '#!/bin/bash',
@@ -34,4 +35,6 @@ var after = [
     ''
 ];
 
-fs.writeFileSync('deploy.sh', sh.concat(after).join('\n'));
+console.log('updated ' + sh_file);
+
+fs.writeFileSync(sh_file, sh.concat(after).join('\n'));

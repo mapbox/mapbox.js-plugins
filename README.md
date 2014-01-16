@@ -2,10 +2,10 @@
 
 grease for the wheels of maps.
 
-- Each plugin should live in a directory that matches its name.
-- Each plugin should have an entry in plugins.json with it's directory, version number, and files.
+- each plugin should live in a directory that matches its name.
+- each plugin should have an entry in plugins.json with it's directory, version number, and files.
 
 ## Deploying
-- include your plugins, add entries in plugins.json
+- include plugins dir, add entries in plugins.json
 - run `node build`
-- run `./deploy.sh`
+- run `sh deploy.sh`

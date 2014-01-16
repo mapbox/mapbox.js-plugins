@@ -14,7 +14,7 @@
         "v": {
             "0.0.1": {
                 "files": [
-                    "Leaflet.fullscreen.js",
+                    "Leaflet.fullscreen.min.js",
                     "leaflet.fullscreen.css",
                     "fullscreen@2x.png",
                     "fullscreen.png"
@@ -27,7 +27,7 @@
         "v": {
             "0.2.2": {
                 "files": [
-                    "leaflet.draw-src.js",
+                    "leaflet.draw.js",
                     "leaflet.draw.css",
                     "images/spritesheet-2x.png",
                     "images/spritesheet.png"
@@ -40,7 +40,7 @@
         "v": {
             "0.4.0": {
                 "files": [
-                    "leaflet.markercluster-src.js",
+                    "leaflet.markercluster.js",
                     "MarkerCluster.Default.css",
                     "MarkerCluster.css"
                 ]
