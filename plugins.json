@@ -8,5 +8,43 @@
                 ]
             }
         }
+    },
+    "leaflet-fullscreen": {
+        "prefix": "leaflet-fullscreen",
+        "v": {
+            "0.0.1": {
+                "files": [
+                    "Leaflet.fullscreen.js",
+                    "leaflet.fullscreen.css",
+                    "fullscreen@2x.png",
+                    "fullscreen.png"
+                ]
+            }
+        }
+    },
+    "leaflet-draw": {
+        "prefix": "leaflet-draw",
+        "v": {
+            "0.2.2": {
+                "files": [
+                    "leaflet.draw-src.js",
+                    "leaflet.draw.css",
+                    "images/spritesheet-2x.png",
+                    "images/spritesheet.png"
+                ]
+            }
+        }
+    },
+    "leaflet-markercluster": {
+        "prefix": "leaflet-markercluster",
+        "v": {
+            "0.4.0": {
+                "files": [
+                    "leaflet.markercluster-src.js",
+                    "MarkerCluster.Default.css",
+                    "MarkerCluster.css"
+                ]
+            }
+        }
     }
 }
