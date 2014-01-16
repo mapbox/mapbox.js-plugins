@@ -22,7 +22,7 @@
     "url": "https://github.com/mapbox/mapbox.js-plugins/issues"
   },
   "dependencies": {
-    "mime": "~1.2.11",
+    "mime": "~1.2.11"
   },
   "devDependencies": {
     "mocha": "~1.14.0"
