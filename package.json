@@ -2,7 +2,7 @@
   "name": "mapbox.js-plugins",
   "version": "0.0.0",
   "description": "a collection of useful plugins made available",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
     "test": "mocha -R spec"
   },
