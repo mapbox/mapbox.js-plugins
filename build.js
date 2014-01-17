@@ -18,10 +18,11 @@ for (var plugin in plugins) {
 
     for (var version in plugin.v) {
         var cmd;
+        dir += 'v' + version + '/';
         plugin.v[version].files.forEach(function(file) {
             cmd = 's3cmd put --acl-public --mime-type ';
             cmd += '"' + mime.lookup(file) + '" ';
-            cmd += dir + file + ' ';
+            cmd += 'plugins/' + dir + file + ' ';
             cmd += s3_path + dir + 'v' + version + '/' + file;
             sh.push(cmd);
         });
