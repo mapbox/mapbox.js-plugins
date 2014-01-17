@@ -23,7 +23,7 @@ for (var plugin in plugins) {
             cmd = 's3cmd put --acl-public --mime-type ';
             cmd += '"' + mime.lookup(file) + '" ';
             cmd += 'plugins/' + dir + file + ' ';
-            cmd += s3_path + dir + '/' + file;
+            cmd += s3_path + dir + file;
             sh.push(cmd);
         });
     }
