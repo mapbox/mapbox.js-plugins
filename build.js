@@ -20,6 +20,9 @@ for (var plugin in plugins) {
         var cmd;
         dir += 'v' + version + '/';
         plugin.v[version].files.forEach(function(file) {
+            // file check, will err if no such file
+            fs.statSync('plugins/' + dir + file).isFile();
+
             cmd = 's3cmd put --acl-public --mime-type ';
             cmd += '"' + mime.lookup(file) + '" ';
             cmd += 'plugins/' + dir + file + ' ';
