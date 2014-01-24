@@ -97,5 +97,16 @@
                 ]
             }
         }
+    },
+    "leaflet-zoomslider": {
+        "prefix": "leaflet-zoomslider",
+        "v": {
+            "0.7.0": {
+                "files": [
+                    "L.Control.Zoomslider.js",
+                    "L.Control.Zoomslider.css"
+                ]
+            }
+        }
     }
 }

@@ -29,6 +29,8 @@ s3cmd put --acl-public --mime-type "image/png" plugins/leaflet-locatecontrol/v0.
 s3cmd put --acl-public --mime-type "image/svg+xml" plugins/leaflet-locatecontrol/v0.21.0/images/locate.svg s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/images/locate.svg
 s3cmd put --acl-public --mime-type "image/gif" plugins/leaflet-locatecontrol/v0.21.0/images/spinner.gif s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/images/spinner.gif
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-osm/v0.1.0/leaflet-osm.js s3://mapbox-js/mapbox.js/plugins/leaflet-osm/v0.1.0/leaflet-osm.js
+s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js
+s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
