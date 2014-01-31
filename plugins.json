@@ -108,5 +108,15 @@
                 ]
             }
         }
+    },
+    "leaflet-heat": {
+        "prefix": "leaflet-heat",
+        "v": {
+            "0.0.1": {
+                "files": [
+                    "leaflet-heat.js"
+                ]
+            }
+        }
     }
 }
