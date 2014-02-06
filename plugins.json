@@ -118,5 +118,15 @@
                 ]
             }
         }
+    },
+    "leaflet-omnivore": {
+        "prefix": "leaflet-omnivore",
+        "v": {
+            "0.0.0": {
+                "files": [
+                    "leaflet-omnivore.min.js"
+                ]
+            }
+        }
     }
 }

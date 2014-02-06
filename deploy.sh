@@ -32,6 +32,7 @@ s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-osm/
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-heat/v0.0.1/leaflet-heat.js s3://mapbox-js/mapbox.js/plugins/leaflet-heat/v0.0.1/leaflet-heat.js
+s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
