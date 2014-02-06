@@ -112,7 +112,7 @@
     "leaflet-heat": {
         "prefix": "leaflet-heat",
         "v": {
-            "0.0.1": {
+            "0.1.0": {
                 "files": [
                     "leaflet-heat.js"
                 ]
