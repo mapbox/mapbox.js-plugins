@@ -14,9 +14,9 @@ var sh = [
 
 for (var plugin in plugins) {
     plugin = plugins[plugin];
-    var dir = plugin.prefix + '/';
 
     for (var version in plugin.v) {
+        var dir = plugin.prefix + '/';
         var cmd;
         dir += 'v' + version + '/';
         plugin.v[version].files.forEach(function(file) {
