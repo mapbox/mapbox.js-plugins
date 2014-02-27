@@ -85,6 +85,22 @@
                     "images/locate.svg",
                     "images/spinner.gif"
                 ]
+            },
+            "0.24.0": {
+                "files": [
+                    "L.Control.Locate.js",
+                    "L.Control.Locate.ie.css",
+                    "L.Control.Locate.css",
+                    "images/locate_alt.png",
+                    "images/locate_alt.svg",
+                    "images/locate_touch_alt.png",
+                    "images/locate_touch.png",
+                    "images/locate.png",
+                    "images/locate@2x.png",
+                    "images/locate.svg",
+                    "images/spinner.gif",
+                    "images/spinner@2x.gif"
+                ]
             }
         }
     },
