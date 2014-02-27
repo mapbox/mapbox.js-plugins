@@ -143,5 +143,17 @@
                 ]
             }
         }
+    },
+    "leaflet-minimap": {
+        "prefix": "leaflet-minimap",
+        "v": {
+            "1.0.0": {
+                "files": [
+                    "Control.MiniMap.css",
+                    "Control.MiniMap.js",
+                    "images/toggle.png"
+                ]
+            }
+        }
     }
 }
