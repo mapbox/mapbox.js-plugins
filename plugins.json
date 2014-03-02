@@ -101,6 +101,26 @@
                     "images/spinner.gif",
                     "images/spinner@2x.gif"
                 ]
+            },
+            "0.25.0": {
+                "files": [
+                    "L.Control.Locate.js",
+                    "L.Control.Locate.ie.css",
+                    "L.Control.Locate.css",
+                    "css/animation.css",
+                    "css/locate-fa-codes.css",
+                    "css/locate-fa-embedded.css",
+                    "css/locate-fa-ie7-codes.css",
+                    "css/locate-fa-ie7.css",
+                    "css/locate-fa.css",
+                    "font/LICENSE.txt",
+                    "font/README.txt",
+                    "font/config.json",
+                    "font/locate-fa.eot",
+                    "font/locate-fa.svg",
+                    "font/locate-fa.ttf",
+                    "font/locate-fa.woff"
+                ]
             }
         }
     },
