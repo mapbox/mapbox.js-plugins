@@ -62,6 +62,7 @@ s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-zoomslider/v0.7.0/
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-heat/v0.1.0/leaflet-heat.js s3://mapbox-js/mapbox.js/plugins/leaflet-heat/v0.1.0/leaflet-heat.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-omnivore/v0.0.1/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.0.1/leaflet-omnivore.min.js
+s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-omnivore/v0.1.0/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.1.0/leaflet-omnivore.min.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/arc.js/v0.1.0/arc.js s3://mapbox-js/mapbox.js/plugins/arc.js/v0.1.0/arc.js
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-minimap/v1.0.0/Control.MiniMap.css s3://mapbox-js/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.css
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js s3://mapbox-js/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js

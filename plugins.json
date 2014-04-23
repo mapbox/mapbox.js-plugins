@@ -167,6 +167,11 @@
                 "files": [
                     "leaflet-omnivore.min.js"
                 ]
+            },
+            "0.1.0": {
+                "files": [
+                    "leaflet-omnivore.min.js"
+                ]
             }
         }
     },
