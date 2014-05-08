@@ -180,6 +180,12 @@
                 "files": [
                     "leaflet-omnivore.min.js"
                 ]
+            },
+            "0.1.1": {
+                "files": [
+                    "leaflet-omnivore.min.js",
+                    "leaflet-omnivore.js"
+                ]
             }
         }
     },
