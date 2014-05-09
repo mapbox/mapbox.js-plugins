@@ -210,5 +210,25 @@
                 ]
             }
         }
+    },
+    "geo-viewport": {
+        "prefix": "geo-viewport",
+        "v": {
+            "0.1.1": {
+                "files": [
+                    "geo-viewport.js"
+                ]
+            }
+        }
+    },
+    "geojson-extent": {
+        "prefix": "geojson-extent",
+        "v": {
+            "0.0.1": {
+                "files": [
+                    "geojson-extent.js"
+                ]
+            }
+        }
     }
 }
