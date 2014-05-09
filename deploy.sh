@@ -73,6 +73,7 @@ s3cmd put --acl-public --mime-type "application/javascript" plugins/arc.js/v0.1.
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-minimap/v1.0.0/Control.MiniMap.css s3://mapbox-js/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.css
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js s3://mapbox-js/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js
 s3cmd put --acl-public --mime-type "image/png" plugins/leaflet-minimap/v1.0.0/images/toggle.png s3://mapbox-js/mapbox.js/plugins/leaflet-minimap/v1.0.0/images/toggle.png
+s3cmd put --acl-public --mime-type "application/javascript" plugins/geo-viewport/v0.1.1/geo-viewport.js s3://mapbox-js/mapbox.js/plugins/geo-viewport/v0.1.1/geo-viewport.js
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
