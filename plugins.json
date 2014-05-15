@@ -230,5 +230,15 @@
                 ]
             }
         }
+    },
+    "leaflet-pip": {
+        "prefix": "leaflet-pip",
+        "v": {
+            "0.0.1": {
+                "files": [
+                    "leaflet-pip.js"
+                ]
+            }
+        }
     }
 }
