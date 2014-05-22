@@ -245,5 +245,15 @@
                 ]
             }
         }
+    },
+    "leaflet-geodesy": {
+        "prefix": "leaflet-geodesy",
+        "v": {
+            "0.1.0": {
+                "files": [
+                    "leaflet-geodesy.js"
+                ]
+            }
+        }
     }
 }

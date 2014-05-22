@@ -77,6 +77,7 @@ s3cmd put --acl-public --mime-type "application/javascript" plugins/geo-viewport
 s3cmd put --acl-public --mime-type "application/javascript" plugins/geojson-extent/v0.0.1/geojson-extent.js s3://mapbox-js/mapbox.js/plugins/geojson-extent/v0.0.1/geojson-extent.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-pip/v0.0.1/leaflet-pip.js s3://mapbox-js/mapbox.js/plugins/leaflet-pip/v0.0.1/leaflet-pip.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-pip/v0.0.2/leaflet-pip.js s3://mapbox-js/mapbox.js/plugins/leaflet-pip/v0.0.2/leaflet-pip.js
+s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-geodesy/v0.1.0/leaflet-geodesy.js s3://mapbox-js/mapbox.js/plugins/leaflet-geodesy/v0.1.0/leaflet-geodesy.js
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
