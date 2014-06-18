@@ -192,6 +192,12 @@
                     "leaflet-omnivore.min.js",
                     "leaflet-omnivore.js"
                 ]
+            },
+            "0.2.0": {
+                "files": [
+                    "leaflet-omnivore.min.js",
+                    "leaflet-omnivore.js"
+                ]
             }
         }
     },
