@@ -73,6 +73,11 @@
                 "files": [
                     "leaflet-image.js"
                 ]
+            },
+            "0.0.4": {
+                "files": [
+                    "leaflet-image.js"
+                ]
             }
         }
     },

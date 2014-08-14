@@ -21,6 +21,7 @@ s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-markercluster/v0.4
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-label/v0.2.1/leaflet.label.js s3://mapbox-js/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-label/v0.2.1/leaflet.label.css s3://mapbox-js/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-image/v0.0.3/leaflet-image.js s3://mapbox-js/mapbox.js/plugins/leaflet-image/v0.0.3/leaflet-image.js
+s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-image/v0.0.4/leaflet-image.js s3://mapbox-js/mapbox.js/plugins/leaflet-image/v0.0.4/leaflet-image.js
 s3cmd put --acl-public --mime-type "application/javascript" plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.js s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.js
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css
 s3cmd put --acl-public --mime-type "text/css" plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.css
