@@ -272,5 +272,18 @@
                 ]
             }
         }
+    },
+    "mapbox-directions.js": {
+        "prefix": "mapbox-directions.js",
+        "v": {
+            "0.0.1": {
+                "files": [
+                    "mapbox.directions.css",
+                    "mapbox.directions.js",
+                    "mapbox.directions.png",
+                    "mapbox.directions.svg"
+                ]
+            }
+        }
     }
 }
