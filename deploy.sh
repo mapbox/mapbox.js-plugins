@@ -87,6 +87,10 @@ s3cmd put --acl-public --mime-type "text/css" plugins/mapbox-directions.js/v0.0.
 s3cmd put --acl-public --mime-type "application/javascript" plugins/mapbox-directions.js/v0.0.1/mapbox.directions.js s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.0.1/mapbox.directions.js
 s3cmd put --acl-public --mime-type "image/png" plugins/mapbox-directions.js/v0.0.1/mapbox.directions.png s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.0.1/mapbox.directions.png
 s3cmd put --acl-public --mime-type "image/svg+xml" plugins/mapbox-directions.js/v0.0.1/mapbox.directions.svg s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.0.1/mapbox.directions.svg
+s3cmd put --acl-public --mime-type "text/css" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.css s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.css
+s3cmd put --acl-public --mime-type "application/javascript" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.js s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.js
+s3cmd put --acl-public --mime-type "image/png" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.png s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.png
+s3cmd put --acl-public --mime-type "image/svg+xml" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
