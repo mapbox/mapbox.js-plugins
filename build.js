@@ -23,7 +23,7 @@ for (var plugin in plugins) {
             // file check, will err if no such file
             fs.statSync('plugins/' + dir + file).isFile();
 
-            cmd = 's3cmd put --acl-public --mime-type ';
+            cmd = 'aws s3 cp --acl public-read --content-type ';
             cmd += '"' + mime.lookup(file) + '" ';
             cmd += 'plugins/' + dir + file + ' ';
             cmd += s3_path + dir + file;
