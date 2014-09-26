@@ -283,6 +283,14 @@
                     "mapbox.directions.png",
                     "mapbox.directions.svg"
                 ]
+            },
+            "0.1.0": {
+                "files": [
+                    "mapbox.directions.css",
+                    "mapbox.directions.js",
+                    "mapbox.directions.png",
+                    "mapbox.directions.svg"
+                ]
             }
         }
     }
