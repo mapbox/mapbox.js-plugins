@@ -13,6 +13,9 @@ npm install
 
 ## Deploying
 
+- install [aws-cli][aws-cli] and configure it with credentials
 - include plugins dir, add entries in plugins.json
 - run `node build`
 - run `sh deploy.sh`
+
+[aws-cli]:http://aws.amazon.com/cli/
