@@ -93,6 +93,7 @@ aws s3 cp --acl public-read --content-type "text/css" plugins/mapbox-directions.
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.js s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.js
 aws s3 cp --acl public-read --content-type "image/png" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.png s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.png
 aws s3 cp --acl public-read --content-type "image/svg+xml" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/turf/v1.3.0/turf.min.js s3://mapbox-js/mapbox.js/plugins/turf/v1.3.0/turf.min.js
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
