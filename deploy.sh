@@ -65,6 +65,7 @@ aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaf
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js
 aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-heat/v0.1.0/leaflet-heat.js s3://mapbox-js/mapbox.js/plugins/leaflet-heat/v0.1.0/leaflet-heat.js
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-heat/v0.1.3/leaflet-heat.js s3://mapbox-js/mapbox.js/plugins/leaflet-heat/v0.1.3/leaflet-heat.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.0.0/leaflet-omnivore.min.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-omnivore/v0.0.1/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.0.1/leaflet-omnivore.min.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-omnivore/v0.1.0/leaflet-omnivore.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-omnivore/v0.1.0/leaflet-omnivore.min.js
