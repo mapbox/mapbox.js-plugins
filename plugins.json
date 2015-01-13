@@ -27,6 +27,14 @@
                     "fullscreen@2x.png",
                     "fullscreen.png"
                 ]
+            },
+            "0.0.4": {
+                "files": [
+                    "Leaflet.fullscreen.min.js",
+                    "leaflet.fullscreen.css",
+                    "fullscreen@2x.png",
+                    "fullscreen.png"
+                ]
             }
         }
     },

@@ -11,6 +11,10 @@ aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaf
 aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css
 aws s3 cp --acl public-read --content-type "image/png" plugins/leaflet-fullscreen/v0.0.2/fullscreen@2x.png s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/fullscreen@2x.png
 aws s3 cp --acl public-read --content-type "image/png" plugins/leaflet-fullscreen/v0.0.2/fullscreen.png s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/fullscreen.png
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css
+aws s3 cp --acl public-read --content-type "image/png" plugins/leaflet-fullscreen/v0.0.4/fullscreen@2x.png s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/fullscreen@2x.png
+aws s3 cp --acl public-read --content-type "image/png" plugins/leaflet-fullscreen/v0.0.4/fullscreen.png s3://mapbox-js/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/fullscreen.png
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-draw/v0.2.2/leaflet.draw.js s3://mapbox-js/mapbox.js/plugins/leaflet-draw/v0.2.2/leaflet.draw.js
 aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-draw/v0.2.2/leaflet.draw.css s3://mapbox-js/mapbox.js/plugins/leaflet-draw/v0.2.2/leaflet.draw.css
 aws s3 cp --acl public-read --content-type "image/png" plugins/leaflet-draw/v0.2.2/images/spritesheet-2x.png s3://mapbox-js/mapbox.js/plugins/leaflet-draw/v0.2.2/images/spritesheet-2x.png
