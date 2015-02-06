@@ -320,6 +320,11 @@
                 "files": [
                     "turf.min.js"
                 ]
+            },
+            "1.4.0": {
+                "files": [
+                    "turf.min.js"
+                ]
             }
         }
     }
