@@ -1,0 +1,33 @@
+/*! Version: 0.39.0
+Date: 2015-01-26 */
+
+/* Compatible with Leaflet 0.7 */
+.leaflet-touch .leaflet-bar-part-single {
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+  border-bottom: none;
+}
+.leaflet-bar-part-single .fa{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.leaflet-bar-part-single .fa-map-marker{
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.leaflet-bar-part-single .fa-location-arrow{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.leaflet-control-locate a {
+  font-size: 1.4em;
+  margin-left: 1px;
+  color: #444;
+}
+.leaflet-control-locate.active a {
+  color: #2074B6;
+}
+.leaflet-control-locate.active.following a {
+  color: #FC8428;
+}
