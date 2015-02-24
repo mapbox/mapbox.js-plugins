@@ -325,6 +325,11 @@
                 "files": [
                     "turf.min.js"
                 ]
+            },
+            "2.0.0": {
+                "files": [
+                    "turf.min.js"
+                ]
             }
         }
     }
