@@ -142,6 +142,30 @@
                     "font/locate-fa.ttf",
                     "font/locate-fa.woff"
                 ]
+            },
+            "0.42.0": {
+                "files": [
+                    "css/font-awesome.css",
+                    "css/font-awesome.css.map",
+                    "css/font-awesome.min.css",
+                    "font/fontawesome-webfont.eot",
+                    "font/fontawesome-webfont.svg",
+                    "font/fontawesome-webfont.ttf",
+                    "font/fontawesome-webfont.woff",
+                    "font/fontawesome-webfont.woff2",
+                    "font/FontAwesome.otf",
+                    "L.Control.Locate.css",
+                    "L.Control.Locate.ie.css",
+                    "L.Control.Locate.ie.min.css",
+                    "L.Control.Locate.ie.min.css.map",
+                    "L.Control.Locate.mapbox.css",
+                    "L.Control.Locate.mapbox.min.css",
+                    "L.Control.Locate.mapbox.min.css.map",
+                    "L.Control.Locate.min.css",
+                    "L.Control.Locate.min.css.map",
+                    "L.Control.Locate.min.js",
+                    "L.Control.Locate.min.js.map"
+                ]
             }
         }
     },

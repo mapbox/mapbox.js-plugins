@@ -65,6 +65,26 @@ aws s3 cp --acl public-read --content-type "application/vnd.ms-fontobject" plugi
 aws s3 cp --acl public-read --content-type "image/svg+xml" plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.svg s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.svg
 aws s3 cp --acl public-read --content-type "application/x-font-ttf" plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.ttf s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.ttf
 aws s3 cp --acl public-read --content-type "application/font-woff" plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.woff s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.25.0/font/locate-fa.woff
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.css
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.css.map s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.css.map
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.min.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/css/font-awesome.min.css
+aws s3 cp --acl public-read --content-type "application/vnd.ms-fontobject" plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.eot s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.eot
+aws s3 cp --acl public-read --content-type "image/svg+xml" plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.svg s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.svg
+aws s3 cp --acl public-read --content-type "application/x-font-ttf" plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.ttf s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.ttf
+aws s3 cp --acl public-read --content-type "application/font-woff" plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.woff s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.woff
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.woff2 s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/fontawesome-webfont.woff2
+aws s3 cp --acl public-read --content-type "font/opentype" plugins/leaflet-locatecontrol/v0.42.0/font/FontAwesome.otf s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/font/FontAwesome.otf
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.css
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.css
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.min.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.min.css
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.min.css.map s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.ie.min.css.map
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.css
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.min.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.min.css
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.min.css.map s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.mapbox.min.css.map
+aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.css s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.css
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.css.map s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.css.map
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.js
+aws s3 cp --acl public-read --content-type "application/octet-stream" plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.js.map s3://mapbox-js/mapbox.js/plugins/leaflet-locatecontrol/v0.42.0/L.Control.Locate.min.js.map
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-osm/v0.1.0/leaflet-osm.js s3://mapbox-js/mapbox.js/plugins/leaflet-osm/v0.1.0/leaflet-osm.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js
 aws s3 cp --acl public-read --content-type "text/css" plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css s3://mapbox-js/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css
@@ -100,6 +120,7 @@ aws s3 cp --acl public-read --content-type "image/png" plugins/mapbox-directions
 aws s3 cp --acl public-read --content-type "image/svg+xml" plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.1.0/mapbox.directions.svg
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/turf/v1.3.0/turf.min.js s3://mapbox-js/mapbox.js/plugins/turf/v1.3.0/turf.min.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/turf/v1.4.0/turf.min.js s3://mapbox-js/mapbox.js/plugins/turf/v1.4.0/turf.min.js
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/turf/v2.0.0/turf.min.js s3://mapbox-js/mapbox.js/plugins/turf/v2.0.0/turf.min.js
 echo ""
 echo ""
 echo "--- DEPLOYED mapbox.js plugins ----"
