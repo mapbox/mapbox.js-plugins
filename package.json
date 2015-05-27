@@ -4,7 +4,7 @@
   "description": "a collection of useful plugins made available",
   "main": "build.js",
   "scripts": {
-    "start": "set -e;  node exists.js; sh deploy.sh; echo ' -- DEPLOYED --'",
+    "start": "set -e;  node exists.js; aws s3 sync --acl public-read plugins s3://mapbox-js/mapbox.js/plugins/; echo ' -- DEPLOYED --'",
     "test": "mocha -R spec"
   },
   "repository": {
