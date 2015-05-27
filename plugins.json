@@ -326,6 +326,11 @@
                 "files": [
                     "leaflet-pip.js"
                 ]
+            },
+            "0.1.0": {
+                "files": [
+                    "leaflet-pip.min.js"
+                ]
             }
         }
     },

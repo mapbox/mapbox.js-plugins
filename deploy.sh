@@ -128,6 +128,7 @@ aws s3 cp --acl public-read --content-type "application/javascript" plugins/geo-
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/geojson-extent/v0.0.1/geojson-extent.js s3://mapbox-js/mapbox.js/plugins/geojson-extent/v0.0.1/geojson-extent.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-pip/v0.0.1/leaflet-pip.js s3://mapbox-js/mapbox.js/plugins/leaflet-pip/v0.0.1/leaflet-pip.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-pip/v0.0.2/leaflet-pip.js s3://mapbox-js/mapbox.js/plugins/leaflet-pip/v0.0.2/leaflet-pip.js
+aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-pip/v0.1.0/leaflet-pip.min.js s3://mapbox-js/mapbox.js/plugins/leaflet-pip/v0.1.0/leaflet-pip.min.js
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/leaflet-geodesy/v0.1.0/leaflet-geodesy.js s3://mapbox-js/mapbox.js/plugins/leaflet-geodesy/v0.1.0/leaflet-geodesy.js
 aws s3 cp --acl public-read --content-type "text/css" plugins/mapbox-directions.js/v0.0.1/mapbox.directions.css s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.0.1/mapbox.directions.css
 aws s3 cp --acl public-read --content-type "application/javascript" plugins/mapbox-directions.js/v0.0.1/mapbox.directions.js s3://mapbox-js/mapbox.js/plugins/mapbox-directions.js/v0.0.1/mapbox.directions.js
