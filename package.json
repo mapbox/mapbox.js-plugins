@@ -4,6 +4,7 @@
   "description": "a collection of useful plugins made available",
   "main": "build.js",
   "scripts": {
+    "start": "set -e;  node exists.js; sh deploy.sh; echo ' -- DEPLOYED --'",
     "test": "mocha -R spec"
   },
   "repository": {
