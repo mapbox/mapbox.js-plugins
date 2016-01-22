@@ -56,6 +56,14 @@
                     "images/spritesheet-2x.png",
                     "images/spritesheet.png"
                 ]
+            },
+            "0.2.3": {
+                "files": [
+                    "leaflet.draw.js",
+                    "leaflet.draw.css",
+                    "images/spritesheet-2x.png",
+                    "images/spritesheet.png"
+                ]
             }
         }
     },
