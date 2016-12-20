@@ -76,6 +76,13 @@
                     "MarkerCluster.Default.css",
                     "MarkerCluster.css"
                 ]
+            },
+            "1.0.0": {
+                "files": [
+                    "leaflet.markercluster.js",
+                    "MarkerCluster.css",
+                    "MarkerCluster.Default.css"
+                ]
             }
         }
     },
