@@ -23,9 +23,3 @@
 .leaflet-control-locate.active.following a {
 	color: #FC8428;
 }
-
-.leaflet-touch .leaflet-control-locate {
-	box-shadow: none;
-	border: 2px solid rgba(0,0,0,0.2);
-	background-clip: padding-box;
-}
