@@ -86,17 +86,6 @@
             }
         }
     },
-    "leaflet-label": {
-        "prefix": "leaflet-label",
-        "v": {
-            "0.2.1": {
-                "files": [
-                    "leaflet.label.js",
-                    "leaflet.label.css"
-                ]
-            }
-        }
-    },
     "leaflet-image": {
         "prefix": "leaflet-image",
         "v": {
