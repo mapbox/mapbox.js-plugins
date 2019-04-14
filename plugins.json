@@ -321,6 +321,24 @@
                 "files": [
                     "geo-viewport.js"
                 ]
+            },
+        "v": {
+            "0.2.0": {
+                "files": [
+                    "geo-viewport.js"
+                ]
+            }
+        "v": {
+            "0.2.1": {
+                "files": [
+                    "geo-viewport.js"
+                ]
+            },
+        "v": {
+            "0.2.2": {
+                "files": [
+                    "geo-viewport.js"
+                ]
             }
         }
     },
